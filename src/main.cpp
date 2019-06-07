@@ -30,7 +30,7 @@ string hasData(string s) {
   return "";
 }
 
-int main(int argc, char* argv[]) {
+int main() {
   uWS::Hub h;
 
   PID pid;
