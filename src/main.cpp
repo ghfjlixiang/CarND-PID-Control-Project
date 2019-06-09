@@ -90,6 +90,9 @@ int main(int argc, char* argv[]) {
             steer_value = -1;
           }
 
+          //twiddle
+          //pid.Twiddle(cte , 0.2);
+
           // DEBUG
           std::cout << "CTE: " << cte << " Steering Value: " << steer_value << " Angle: " << angle << " Speed: " << speed 
                     << std::endl;
